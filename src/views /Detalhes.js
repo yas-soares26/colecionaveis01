@@ -34,4 +34,3 @@ function Detalhes({ navigation }) {
     )
 }
 export default Detalhes;
-

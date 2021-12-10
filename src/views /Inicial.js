@@ -14,11 +14,6 @@ function Inicial({ navigation }) {
     return (
         <View style={{flex: 1, backgroundColor: '#FF69B4'}}>
 
-        <ImageBackground style={estiloInicial.imagem}
-         source={require('../../../Imagens/sumare.jpg')}>
-
-        </ImageBackground>
-
             <SafeAreaView style={estiloInicial.container}>
             <ScrollView style={estiloInicial.scrollView}>
 
