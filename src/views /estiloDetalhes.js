@@ -8,6 +8,7 @@ const estiloDetalhes = StyleSheet.create ({
         color: '#000000',
         fontWeight: 'bold',
         textAlign: "center",
+        fontFamily: "Cochin",
         padding: 10
     },
 
