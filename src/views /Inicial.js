@@ -2,44 +2,37 @@ import React from 'react';
 import { Text, View, TouchableOpacity, ImageBackground, SafeAreaView, ScrollView } from 'react-native';
 import estiloInicial from './estiloInicial';
 
-
-
 function Inicial({ navigation }) {
 
     const abrirSobre = () => {
-        navigation.navigate('Sobre')
+        navigation.navigate('Historia')
     }
     const abrirDetalhes = () => {
         navigation.navigate('Detalhes')
     }
 
     return (
-        <View style={{flex: 1, backgroundColor: '#B0E0E6'}}>
+        <View style={{flex: 1, backgroundColor: '#FF69B4'}}>
 
         <ImageBackground style={estiloInicial.imagem}
          source={require('../../../Imagens/sumare.jpg')}>
 
-        </ImageBackground>-
+        </ImageBackground>
 
-             <SafeAreaView style={estiloInicial.container}>
-      <ScrollView style={estiloInicial.scrollView}>
+            <SafeAreaView style={estiloInicial.container}>
+            <ScrollView style={estiloInicial.scrollView}>
 
-                <Text style={estiloInicial.titulo}>Updated</Text>
-                <Text style={estiloInicial.textinho}>Seja bem-vindo ao aplicativo de notícias 
-                da sua região!</Text><br></br>
-                <br></br><br></br><br></br>
-                <Text style={estiloInicial.subtitulo}>Dança</Text><br></br>
-                <Text style={estiloInicial.texto}>  </Text>
-                <Text style={estiloInicial.texto}>
-                </Text>
-                <Text style={estiloInicial.texto}></Text>
+                        <Text style={estiloInicial.titulo}>Dança</Text>
+                        <Text style={estiloInicial.textinho}>Bem-vindo ao nosso aplicativo que vai te 
+                        mostrar o melhor da dança</Text><br></br>
+                        <br></br>
+                        <Text style={estiloInicial.subtitulo}>Dança é a arte de movimentar expressivamente o corpo seguindo movimentos ritmados, em geral ao som de música.</Text><br></br>       
 
             </ScrollView>
-            </SafeAreaView>
-             
-             </View>
-    
-        
+            </SafeAreaView>  
+                  
+      </View>
+
     )
 }
 

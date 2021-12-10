@@ -2,13 +2,12 @@ import { StyleSheet } from 'react-native';
 
 const estiloDetalhes = StyleSheet.create ({
 
-     
     titulo: {
         fontSize: 70,
-        color: '#000000',
+        color: '#800000',
         fontWeight: 'bold',
         textAlign: "center",
-        fontFamily: "Cochin",
+        fontFamily: "times new roman",
         padding: 10
     },
 

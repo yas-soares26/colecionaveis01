@@ -4,10 +4,10 @@ const estiloInicial = StyleSheet.create ({
     
     titulo: {
         fontSize: 70,
-        color: '#000000',
+        color: '#800000',
         fontWeight: 'bold',
         textAlign: "center",
-        fontFamily: "Cochin",
+        fontFamily: "times new roman",
         padding: 10
     },
 
@@ -16,7 +16,7 @@ const estiloInicial = StyleSheet.create ({
         color: '#000000',
         fontWeight: 'bold',
         textAlign: "center",
-        fontFamily: "Cochin",
+        fontFamily: "times new roman",
         padding: 10
     },
 
@@ -31,10 +31,10 @@ const estiloInicial = StyleSheet.create ({
 
     subtitulo: {
         fontSize: 30,
-        color: '#000000',
+        color: '#800000',
         fontWeight: 'bold',
         textAlign: "center",
-        fontFamily: "Cochin",
+        fontFamily: "times new roman",
         padding: 10
     },
 
@@ -42,7 +42,7 @@ const estiloInicial = StyleSheet.create ({
         fontSize: 20,
         color: '#000000',
         textAlign: "justify",
-        fontFamily: "Arial",
+        fontFamily: "Calibri",
         padding: 10,
         marginLeft: 50,
         marginRight: 50

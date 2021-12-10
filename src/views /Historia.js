@@ -27,22 +27,21 @@ function Sobre({ navigation }) {
     }
 
     return (
-        <View style={{flex: 1, backgroundColor: '#B0E0E6'}}>
-
-        
+        <View style={{flex: 1, backgroundColor: '#FF69B4'} }>
            
-            <Text style={estiloSobre.titulo}>Sobre</Text>
-            <Text style={estiloSobre.texto}> 
-            Esse aplicativo visa notificar os moradores de Sumaré dos principais acontecimentos nessa cidade, como por exemplo: campanhas, novas obras, eventos, etc.
+            <Text style={estiloSobre.titulo}>História estilo de dança jazz</Text>
+            <Text style={estiloSobre.texto}>
+            Nascido do blues, das work songs dos trabalhadores negros norte-americanos, do negro spiritual protestante e do ragtime, o jazz passou por uma extraordinária sucessão de transformações no século XX. É notável como essa música se modificou tão profundamente durante um período de apenas um século.
             </Text>
-            <Text style={estiloSobre.texto}> Sendo assim, na tela inicial o usuário poderá ver as notícias mais recentes, e futuramente as áreas "campanhas", "novas obras", "eventos" e "mais notícias" serão atualizadas com as informações da cidade.</Text>
-            <Text style={estiloSobre.texto}> ~ Júlia Rodrigues Siqueira - DS 2ºB </Text>
-       
+            <Text style={estiloSobre.texto}> 
+            Esse aplicativo tem como principal função ensina-los sobre a dança  jazz.</Text>
+            <Text style={estiloSobre.texto}> Sendo assim, sua origem a Dança Jazz tem raízes essencialmente populares. Com uma evolução inicial paralela à da música Jazz, surgiu 
+            nos E.U.A no final do século passado. Pode-se afirmar, inclusive,  que nasceu diretamente da cultura negra . </Text>
+            <Text style={estiloSobre.texto}>No início deste século, as danças afro-americanas começaram a entrar para os salões, e a sofrer novas influências: do can-can e do charleston, principalmente. Logo, essa dança que se pode até chamar de "mista", tomou conta dos palcos da Broadway, se transformando na conhecida comédia musical que, por sua vez, é o segundo nome dado à dança mais conhecida como jazz.</Text>
 
-    </View>
+        </View>
 
     )
 }
 
 export default Historia;
-
